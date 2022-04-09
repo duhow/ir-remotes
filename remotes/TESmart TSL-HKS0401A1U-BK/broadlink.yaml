@@ -1,0 +1,36 @@
+- platform: broadlink      ### RoomName = Rumpus
+  host: 192.168.255.255    ## IP Address of the Broadlink
+  mac: "78:0f:77:00:xx:xx" ## MAC Address of the Broadlink
+  timeout: 15
+  type: rm_mini            ## Broadlink type
+  switches:
+    'M':
+      friendly_name: "remote M"
+      command_on: 'JgBIAAABKJQSNxI3EjcSEhI3EhISEhISEhISEhISEjcSEhI3EjcSNxI3EhISNxISEhISEhI3EhISEhI3EhISNxI3EjcSEhI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'P':
+      friendly_name: "remote P"
+      command_on: 'JgBIAAABKJQSNxI3EjcSEhI3EhISEhISEhISEhISEjcSEhI3EjcSNxI3EjcSNxISEhISEhI3EhISEhISEhISNxI3EjcSEhI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'Input 1':
+      friendly_name: "remote Input 1"
+      command_on: 'JgBIAAABKJQSNxI3EjcSEhI3EhISEhISEhISEhISEjcSEhI3EjcSNxISEhISNxISEhISEhI3EhISNxI3EhISNxI3EjcSEhI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'Input 2':
+      friendly_name: "remote Input 2"
+      command_on: 'JgBIAAABKJQSNxI3EjcSEhI3EhISEhISEhISEhISEjcSEhI3EjcSNxI3EjcSEhISEhISEhI3EhISEhISEjcSNxI3EjcSEhI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'Input 3':
+      friendly_name: "remote Input 3"
+      command_on: 'JgBIAAABKJQSNxI3EjcSEhI3EhISEhISEhISEhISEjcSEhI3EjcSNxI3EjcSNxISEhISEhISEhISEhISEhISNxI3EjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'Input 4':
+      friendly_name: "remote Input 4"
+      command_on: 'JgBIAAABKJQSNxI3EjcSEhI3EhISEhISEhISEhISEjcSEhI3EjcSNxI3EhISEhI3EhISEhISEhISEhI3EjcSEhI3EjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
