@@ -1,0 +1,156 @@
+- platform: broadlink      ### RoomName = Rumpus
+  host: 192.168.255.255    ## IP Address of the Broadlink
+  mac: "78:0f:77:00:xx:xx" ## MAC Address of the Broadlink
+  timeout: 15
+  type: rm_mini            ## Broadlink type
+  switches:
+    'EPG':
+      friendly_name: "remote EPG"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhISEjcSEhISEjcSNxISEhISNxISEjcSNxISEhISNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Power':
+      friendly_name: "remote Power"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EhISEhISEhISNxISEhISEhI3EjcSNxI3EhISNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Arrow Up':
+      friendly_name: "remote Arrow Up"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EhISNxISEjcSEhISEhISEhI3EhISNxISEjcSNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Arrow Down':
+      friendly_name: "remote Arrow Down"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhISEjcSNxISEjcSEhISEhISNxISEhISNxISEjcSNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Arrow Left':
+      friendly_name: "remote Arrow Left"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EjcSNxISEjcSEhISEhISEhISEhISNxISEjcSNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Arrow Right':
+      friendly_name: "remote Arrow Right"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhISEhISEhI3EjcSEhISEhISNxI3EjcSEhISEjcSNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'OK':
+      friendly_name: "remote OK"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EhISEhI3EjcSEhISEhISEhI3EjcSEhISEjcSNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Back':
+      friendly_name: "remote Back"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhISEhISEhI3EhISEhI3EhISNxI3EjcSEhI3EjcSEhI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Home':
+      friendly_name: "remote Home"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EjcSNxISEhISEhI3EhISEhISEhISNxI3EjcSEhI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Green Play':
+      friendly_name: "remote Green Play"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EhISEhISEhISNxI3EhISEhI3EjcSNxI3EhISEhI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Google Assistant':
+      friendly_name: "remote Google Assistant"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhISEjcSNxISEhISEhI3EhISNxISEhISNxI3EjcSEhI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Volume Up':
+      friendly_name: "remote Volume Up"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EjcSEhISEhISNxISEhISEhISEjcSNxI3EhISNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Volume Down':
+      friendly_name: "remote Volume Down"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhISEhISNxISEhISNxISEhISNxI3EhISNxI3EhISNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Channel Up':
+      friendly_name: "remote Channel Up"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EjcSEhISEjcSNxISEhISEhISEjcSNxISEhISNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Channel Down':
+      friendly_name: "remote Channel Down"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhISEhISNxISEjcSNxISEhISNxI3EhISNxISEhISNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Netflix':
+      friendly_name: "remote Netflix"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EjcSEhI3EhISEhI3EhISEhISEjcSEhI3EjcSEhI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Amazon Prime Video':
+      friendly_name: "remote Amazon Prime Video"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhISEjcSEhI3EhISEhI3EhISNxISEjcSEhI3EjcSEhI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Applications':
+      friendly_name: "remote Applications"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EjcSEhI3EjcSNxISEjcSEhISEjcSEhISEhISNxISEgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Input 1':
+      friendly_name: "remote Input 1"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EhISEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Input 2':
+      friendly_name: "remote Input 2"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhISEjcSEhISEhISEhISEhISNxISEjcSNxI3EjcSNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Input 3':
+      friendly_name: "remote Input 3"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EjcSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Input 4':
+      friendly_name: "remote Input 4"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhISEhISNxISEhISEhISEhISNxI3EhISNxI3EjcSNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Input 5':
+      friendly_name: "remote Input 5"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EhISNxISEhISEhISEhISEhI3EhISNxI3EjcSNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Input 6':
+      friendly_name: "remote Input 6"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhISEjcSNxISEhISEhISEhISNxISEhISNxI3EjcSNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Input 7':
+      friendly_name: "remote Input 7"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EjcSNxISEhISEhISEhISEhISEhISNxI3EjcSNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Input 8':
+      friendly_name: "remote Input 8"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhISEhISEhI3EhISEhISEhISNxI3EjcSEhI3EjcSNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Input 9':
+      friendly_name: "remote Input 9"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EhISEhI3EhISEhISEhISEhI3EjcSEhI3EjcSNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Input 0':
+      friendly_name: "remote Input 0"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhISEjcSEhI3EhISEhISEhISNxISEjcSEhI3EjcSNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Mute':
+      friendly_name: "remote Mute"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EhISNxISEhISNxISEhISEhI3EhISNxI3EhISNxI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
+    'Record':
+      friendly_name: "remote Record"
+      command_on: 'JgBIAAABKJQSEhI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EhISEhI3EhISEhI3EhISEhI3EhISEhI3EjcSEhI3EjcSEhI3EgAFqwABKEoSAA0F'
+      command_off: ''
+
