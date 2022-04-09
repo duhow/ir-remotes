@@ -1,0 +1,91 @@
+- platform: broadlink      ### RoomName = Rumpus
+  host: 192.168.255.255    ## IP Address of the Broadlink
+  mac: "78:0f:77:00:xx:xx" ## MAC Address of the Broadlink
+  timeout: 15
+  type: rm_mini            ## Broadlink type
+  switches:
+    'Input 1':
+      friendly_name: "remote Input 1"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhISEjcSEhISEjcSEhISEhISNxISEjcSNxISEjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'Input 2':
+      friendly_name: "remote Input 2"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhISEjcSEhI3EjcSEhISEhISNxISEjcSEhISEjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'Input 3':
+      friendly_name: "remote Input 3"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhISEjcSNxI3EjcSEhISEhISNxISEhISEhISEjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'Input 4':
+      friendly_name: "remote Input 4"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'Input 5':
+      friendly_name: "remote Input 5"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhISEjcSEhISEhISEhISEhISNxISEjcSNxI3EjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'Return':
+      friendly_name: "remote Return"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhI3EjcSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    '2.0CH':
+      friendly_name: "remote 2.0CH"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhISEhISNxISEhISEhISEhISNxI3EhISNxI3EjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    '5.1CH':
+      friendly_name: "remote 5.1CH"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhI3EhISNxISEhISEhISEhISEhI3EhISNxI3EjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    '7.1CH':
+      friendly_name: "remote 7.1CH"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhISEjcSNxISEhISEhISEhISNxISEhISNxI3EjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'Auto':
+      friendly_name: "remote Auto"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhI3EjcSNxISEhISEhISEhISEhISEhISNxI3EjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'ARC':
+      friendly_name: "remote ARC"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhI3EhISEhI3EhISEhISEhISEhI3EjcSEhI3EjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'PIP':
+      friendly_name: "remote PIP"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhISEjcSEhI3EhISEhISEhISNxISEjcSEhI3EjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'SEL':
+      friendly_name: "remote SEL"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhI3EjcSEhI3EjcSEhISEhISEhISEjcSEhISEjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'Enter':
+      friendly_name: "remote Enter"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhI3EjcSNxI3EjcSEhISEhISEhISEhISEhISEjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'Red':
+      friendly_name: "remote Red"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhISEhISNxI3EhISEhISEhISNxI3EhISEhI3EjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'Green':
+      friendly_name: "remote Green"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhI3EhISNxI3EhISEhISEhISEhI3EhISEhI3EjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
+    'Yellow':
+      friendly_name: "remote Yellow"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EjcSEhISEjcSNxI3EhISEhISEhISNxISEhISEhI3EjcSNxI3EgAFFwABKEoSAA0F'
+      command_off: ''
+
