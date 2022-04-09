@@ -1,0 +1,261 @@
+- platform: broadlink      ### RoomName = Rumpus
+  host: 192.168.255.255    ## IP Address of the Broadlink
+  mac: "78:0f:77:00:xx:xx" ## MAC Address of the Broadlink
+  timeout: 15
+  type: rm_mini            ## Broadlink type
+  switches:
+    'Power':
+      friendly_name: "remote-tv Power"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EhISNxISEjcSEhISEhISEhI3EhISNxISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Sleep':
+      friendly_name: "remote-tv Sleep"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEjcSNxISEjcSEhISEhISNxISEhISNxISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Input 1':
+      friendly_name: "remote-tv Input 1"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EhISEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Input 2':
+      friendly_name: "remote-tv Input 2"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEjcSEhISEhISEhISEhISNxISEjcSNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Input 3':
+      friendly_name: "remote-tv Input 3"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EjcSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Input 4':
+      friendly_name: "remote-tv Input 4"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEhISNxISEhISEhISEhISNxI3EhISNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Input 5':
+      friendly_name: "remote-tv Input 5"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EhISNxISEhISEhISEhISEhI3EhISNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Input 6':
+      friendly_name: "remote-tv Input 6"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEjcSNxISEhISEhISEhISNxISEhISNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Input 7':
+      friendly_name: "remote-tv Input 7"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EjcSNxISEhISEhISEhISEhISEhISNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Input 8':
+      friendly_name: "remote-tv Input 8"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEhISEhI3EhISEhISEhISNxI3EjcSEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Input 9':
+      friendly_name: "remote-tv Input 9"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EhISEhI3EhISEhISEhISEhI3EjcSEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Input 0':
+      friendly_name: "remote-tv Input 0"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEhISEhISEhISEhISEhISNxI3EjcSNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'TV/Radio':
+      friendly_name: "remote-tv TV/Radio"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EjcSEhI3EhISEhISEhISEhISEjcSEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Exchange Channel':
+      friendly_name: "remote-tv Exchange Channel"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEjcSEhI3EhISEhISEhISNxISEjcSEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Volume up':
+      friendly_name: "remote-tv Volume up"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EjcSEhI3EjcSEhISEhISEhISEjcSEhISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Volume down':
+      friendly_name: "remote-tv Volume down"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEjcSEhI3EjcSEhISEhISNxISEjcSEhISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Channel up':
+      friendly_name: "remote-tv Channel up"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EhISEhI3EjcSEhISEhISEhI3EjcSEhISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Channel down':
+      friendly_name: "remote-tv Channel down"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEhISEhI3EjcSEhISEhISNxI3EjcSEhISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Mute':
+      friendly_name: "remote-tv Mute"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEjcSEhISEhISEhI3EhISNxISEjcSNxI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Guide':
+      friendly_name: "remote-tv Guide"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEhISEhISEhISEhI3EhISNxI3EjcSNxI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Menu':
+      friendly_name: "remote-tv Menu"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EhISEhISEjcSEhISEhISEhI3EjcSNxISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Source':
+      friendly_name: "remote-tv Source"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEjcSEhISEjcSEhISEhISNxISEjcSNxISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Info':
+      friendly_name: "remote-tv Info"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EjcSEhISEjcSEhISEhISEhISEjcSNxISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Exit':
+      friendly_name: "remote-tv Exit"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEhISNxISEjcSEhISEhISNxI3EhISNxISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Arrow Up':
+      friendly_name: "remote-tv Arrow Up"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEhISNxI3EhISEhISEhISNxI3EhISEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Arrow Down':
+      friendly_name: "remote-tv Arrow Down"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EhISNxI3EhISEhISEhISEhI3EhISEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Arrow Left':
+      friendly_name: "remote-tv Arrow Left"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EjcSNxI3EhISEhISEhISEhISEhISEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Arrow Right':
+      friendly_name: "remote-tv Arrow Right"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEjcSNxI3EhISEhISEhISNxISEhISEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'OK':
+      friendly_name: "remote-tv OK"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEhISEhISEjcSEhISEhISNxI3EjcSNxISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Subtitles':
+      friendly_name: "remote-tv Subtitles"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EhISNxI3EjcSEhISEhISEhI3EhISEhISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Audio':
+      friendly_name: "remote-tv Audio"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEjcSNxI3EjcSEhISEhISNxISEhISEhISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Return':
+      friendly_name: "remote-tv Return"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEhISNxI3EjcSEhISEhISNxI3EhISEhISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Image':
+      friendly_name: "remote-tv Image"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EjcSEhISEhISEhI3EhISEhISEjcSNxI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Sound':
+      friendly_name: "remote-tv Sound"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EjcSNxISEjcSEhISEhISEhISEhISNxISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Aspect':
+      friendly_name: "remote-tv Aspect"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EhISEhISEhISEhI3EhISEhI3EjcSNxI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Red':
+      friendly_name: "remote-tv Red"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EjcSEhISEjcSEhI3EhISEhISEjcSNxISEjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Green':
+      friendly_name: "remote-tv Green"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEjcSEhISEjcSEhI3EhISNxISEjcSNxISEjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Yellow':
+      friendly_name: "remote-tv Yellow"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EhISEhISEjcSEhI3EhISEhI3EjcSNxISEjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Blue':
+      friendly_name: "remote-tv Blue"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEhISEhISEjcSEhI3EhISNxI3EjcSNxISEjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Rewind':
+      friendly_name: "remote-tv Rewind"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EjcSNxISEhISEhI3EhISEhISEhISNxI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Play/Pause':
+      friendly_name: "remote-tv Play/Pause"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEjcSEhI3EhISEhI3EhISNxISEjcSEhI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Forward':
+      friendly_name: "remote-tv Forward"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEjcSNxISEhISEhI3EhISNxISEhISNxI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Chapter Back':
+      friendly_name: "remote-tv Chapter Back"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EhISNxISEhISEhI3EhISEhI3EhISNxI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Stop':
+      friendly_name: "remote-tv Stop"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEhISNxISEhISEhI3EhISNxI3EhISNxI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Chapter Forward':
+      friendly_name: "remote-tv Chapter Forward"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EjcSEhI3EhISEhI3EhISEhISEjcSEhI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Record':
+      friendly_name: "remote-tv Record"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EhISEhI3EhISEhI3EhISEhI3EjcSEhI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'PIP':
+      friendly_name: "remote-tv PIP"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEhISEhI3EhISEhI3EhISNxI3EjcSEhI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'FAV':
+      friendly_name: "remote-tv FAV"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EjcSNxI3EhISEhI3EhISEhISEhISEhI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Home':
+      friendly_name: "remote-tv Home"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEjcSNxI3EhISEhI3EhISNxISEhISEhI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Mouse':
+      friendly_name: "remote-tv Mouse"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhI3EhISNxI3EhISEhI3EhISEhI3EhISEhI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'USB':
+      friendly_name: "remote-tv USB"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EjcSEhISEhISNxI3EhISEhI3EhISNxI3EhISEhI3EjcSEhI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
