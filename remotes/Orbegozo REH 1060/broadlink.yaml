@@ -1,0 +1,36 @@
+- platform: broadlink      ### RoomName = Rumpus
+  host: 192.168.255.255    ## IP Address of the Broadlink
+  mac: "78:0f:77:00:xx:xx" ## MAC Address of the Broadlink
+  timeout: 15
+  type: rm_mini            ## Broadlink type
+  switches:
+    'Set':
+      friendly_name: "remote Set"
+      command_on: 'JgAYACkOKQ4OKSkOKQ4OKQ4pDikOKQ4pDikpAA0F'
+      command_off: ''
+
+    'Lock':
+      friendly_name: "remote Lock"
+      command_on: 'JgAYACkOKQ4OKSkOKQ4OKQ4pDikpDg4pDikOAA0F'
+      command_off: ''
+
+    'Mode':
+      friendly_name: "remote Mode"
+      command_on: 'JgAYACkOKQ4OKSkOKQ4OKQ4pKQ4OKQ4pDikOAA0F'
+      command_off: ''
+
+    'Heat':
+      friendly_name: "remote Heat"
+      command_on: 'JgAYACkOKQ4OKSkOKQ4OKQ4pDikOKQ4pKQ4OAA0F'
+      command_off: ''
+
+    'Up':
+      friendly_name: "remote Up"
+      command_on: 'JgAYACkOKQ4OKSkOKQ4OKQ4pDikOKSkODikOAA0F'
+      command_off: ''
+
+    'Down':
+      friendly_name: "remote Down"
+      command_on: 'JgAYACkOKQ4OKSkOKQ4OKSkODikOKQ4pDikOAA0F'
+      command_off: ''
+
