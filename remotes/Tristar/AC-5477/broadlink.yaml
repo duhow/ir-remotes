@@ -1,0 +1,41 @@
+- platform: broadlink      ### RoomName = Rumpus
+  host: 192.168.255.255    ## IP Address of the Broadlink
+  mac: "78:0f:77:00:xx:xx" ## MAC Address of the Broadlink
+  timeout: 15
+  type: rm_mini            ## Broadlink type
+  switches:
+    'Speed':
+      friendly_name: "air Speed"
+      command_on: 'JgBEAAABKJQSEhISEjcSEhISEhISEhISEjcSNxISEjcSNxI3EjcSNxISEjcSNxISEhISEhISEhISNxISEhISNxI3EjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'Temp +':
+      friendly_name: "air Temp +"
+      command_on: 'JgBEAAABKJQSEhISEjcSEhISEhISEhISEjcSNxISEjcSNxI3EjcSNxI3EhISNxISEhISEhISEhISEhI3EhISNxI3EjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'Mode':
+      friendly_name: "air Mode"
+      command_on: 'JgBEAAABKJQSEhISEjcSEhISEhISEhISEjcSNxISEjcSNxI3EjcSNxI3EhISNxI3EhISEhISEhISEhI3EhISEhI3EjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'blank':
+      friendly_name: "air blank"
+      command_on: 'JgBEAAABKJQSEhISEjcSEhISEhISEhISEjcSNxISEjcSNxI3EjcSNxI3EjcSNxISEhISEhISEhISEhISEhISNxI3EjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'Temp -':
+      friendly_name: "air Temp -"
+      command_on: 'JgBEAAABKJQSEhISEjcSEhISEhISEhISEjcSNxISEjcSNxI3EjcSNxI3EhISEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'Timer':
+      friendly_name: "air Timer"
+      command_on: 'JgBEAAABKJQSEhISEjcSEhISEhISEhISEjcSNxISEjcSNxI3EjcSNxISEhISEhISEhISEhISEhISNxI3EjcSNxI3EjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'Power':
+      friendly_name: "air Power"
+      command_on: 'JgBEAAABKJQSEhISEjcSEhISEhISEhISEjcSNxISEjcSNxI3EjcSNxISEhISNxISEhISEhISEhISNxI3EhISNxI3EjcSNxI3EgANBQ=='
+      command_off: ''
+
