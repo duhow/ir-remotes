@@ -1,0 +1,146 @@
+- platform: broadlink      ### RoomName = Rumpus
+  host: 192.168.255.255    ## IP Address of the Broadlink
+  mac: "78:0f:77:00:xx:xx" ## MAC Address of the Broadlink
+  timeout: 15
+  type: rm_mini            ## Broadlink type
+  switches:
+    'Power':
+      friendly_name: "Benq Projector Power"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhISEjcSEhISEhISEhISEhISNxISEjcSNxI3EjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'Comp 1':
+      friendly_name: "Benq Projector Comp 1"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhI3EhISEhISEjcSEhI3EhISEhI3EjcSNxISEjcSEhI3EgANBQ=='
+      command_off: ''
+
+    'Comp 2':
+      friendly_name: "Benq Projector Comp 2"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhISEhISEhISEjcSEhI3EhISNxI3EjcSNxISEjcSEhI3EgANBQ=='
+      command_off: ''
+
+    'Video':
+      friendly_name: "Benq Projector Video"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhISEjcSEhISEjcSEhI3EhISNxISEjcSNxISEjcSEhI3EgANBQ=='
+      command_off: ''
+
+    'HDMI':
+      friendly_name: "Benq Projector HDMI"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhISEhISEhI3EjcSEhI3EhISNxI3EjcSEhISEjcSEhI3EgANBQ=='
+      command_off: ''
+
+    'D-SUB':
+      friendly_name: "Benq Projector D-SUB"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhI3EhISEhISEhISEhI3EhISEhI3EjcSNxI3EjcSEhI3EgANBQ=='
+      command_off: ''
+
+    'S-VIDEO':
+      friendly_name: "Benq Projector S-VIDEO"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhI3EjcSNxI3EjcSEhISEhISEhISEhISEhISEjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'ANA':
+      friendly_name: "Benq Projector ANA"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhISEhISEhISEjcSNxI3EhISNxI3EjcSNxISEhISEhI3EgANBQ=='
+      command_off: ''
+
+    '4:3':
+      friendly_name: "Benq Projector 4:3"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhI3EhISEhISEjcSNxI3EhISEhI3EjcSNxISEhISEhI3EgANBQ=='
+      command_off: ''
+
+    'LB':
+      friendly_name: "Benq Projector LB"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhISEjcSEhISEjcSNxI3EhISNxISEjcSNxISEhISEhI3EgANBQ=='
+      command_off: ''
+
+    'Wide':
+      friendly_name: "Benq Projector Wide"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhI3EjcSEhISEjcSNxI3EhISEhISEjcSNxISEhISEhI3EgANBQ=='
+      command_off: ''
+
+    'Real':
+      friendly_name: "Benq Projector Real"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhISEhISNxISEjcSNxI3EhISNxI3EhISNxISEhISEhI3EgANBQ=='
+      command_off: ''
+
+    'Mode':
+      friendly_name: "Benq Projector Mode"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhISEhISEhISEjcSEhISEhISNxI3EjcSNxISEjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'Memory 1':
+      friendly_name: "Benq Projector Memory 1"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhI3EhISNxISEjcSNxI3EhISEhI3EhISNxISEhISEhI3EgANBQ=='
+      command_off: ''
+
+    'Memory 2':
+      friendly_name: "Benq Projector Memory 2"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhISEjcSNxISEjcSNxI3EhISNxISEhISNxISEhISEhI3EgANBQ=='
+      command_off: ''
+
+    'Memory 3':
+      friendly_name: "Benq Projector Memory 3"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhI3EjcSNxISEjcSNxI3EhISEhISEhISNxISEhISEhI3EgANBQ=='
+      command_off: ''
+
+    'Default':
+      friendly_name: "Benq Projector Default"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhISEhISEhI3EjcSNxI3EhISNxI3EjcSEhISEhISEhI3EgANBQ=='
+      command_off: ''
+
+    'Arrow Up':
+      friendly_name: "Benq Projector Arrow Up"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhI3EjcSEhI3EhISEhISEhISEhISEjcSEhI3EjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'Arrow Down':
+      friendly_name: "Benq Projector Arrow Down"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhISEhISNxI3EhISEhISEhISNxI3EhISEhI3EjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'Arrow Left':
+      friendly_name: "Benq Projector Arrow Left"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhI3EhISNxI3EhISEhISEhISEhI3EhISEhI3EjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'Arrow Right':
+      friendly_name: "Benq Projector Arrow Right"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhISEjcSNxI3EhISEhISEhISNxISEhISEhI3EjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'Enter':
+      friendly_name: "Benq Projector Enter"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhI3EhISNxISEjcSEhISEhISEhI3EhISNxISEjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'Menu':
+      friendly_name: "Benq Projector Menu"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhI3EjcSNxI3EhISEhISEhISEhISEhISEhI3EjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'Exit':
+      friendly_name: "Benq Projector Exit"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhI3EhISNxISEhISEhISEjcSEhI3EhISNxI3EjcSNxISEgANBQ=='
+      command_off: ''
+
+    'Brightness':
+      friendly_name: "Benq Projector Brightness"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhISEjcSNxISEjcSEhISEhISNxISEhISNxISEjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'Contrast':
+      friendly_name: "Benq Projector Contrast"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhI3EhISEhISEjcSEhISEhISEhI3EjcSNxISEjcSNxI3EgANBQ=='
+      command_off: ''
+
+    'Color':
+      friendly_name: "Benq Projector Color"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhI3EhISEhI3EjcSNxI3EhISEhI3EjcSEhISEhISEhI3EgANBQ=='
+      command_off: ''
+
+    'Tint':
+      friendly_name: "Benq Projector Tint"
+      command_on: 'JgBEAAABKJQSEhISEhISEhISEhISEhISEhISEhISEhISNxI3EhISEhISEjcSEhI3EjcSNxI3EhISNxISEjcSEhISEhISEhI3EgANBQ=='
+      command_off: ''
+
