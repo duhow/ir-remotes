@@ -1,7 +1,8 @@
-# Panasonic N2QAYB
+# Panasonic TX-60AS650E (N2QAYB)
 
 Brand: Panasonic  
-Model: N2QAYB  
+Model: TX-60AS650E  
+Remote Model: N2QAYB  
 Type: Smart TV
 
 Battery: 2x AA 1.5V

@@ -3,7 +3,7 @@
     <adminData>
         <creationData creatingUser="duhow" creationDate="2022-04-12_17:14:52" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.10" toolVersion="2.3.1"/>
     </adminData>
-    <remote comment="Export from IrScrutinizer" deviceClass="CD" manufacturer="Sony" name="remote" remoteName="RM-DX300">
+    <remote comment="Export from IrScrutinizer" deviceClass="CD" manufacturer="Sony" model="CDF-CX355" name="remote" remoteName="RM-DX300">
         <commandSet name="commandSet">
             <parameters protocol="Sony12">
                 <parameter name="D" value="17"/>

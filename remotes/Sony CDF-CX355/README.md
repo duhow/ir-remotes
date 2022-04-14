@@ -1,7 +1,8 @@
-# Sony RM-DX300
+# Sony CDF-CX355 (RM-DX300)
 
 Brand: Sony  
-Model: RM-DX300  
+Model: CDF-CX355  
+Remote Model: RM-DX300  
 Type: Jukebox CD
 
 Battery: 2x AAA 1.5V
