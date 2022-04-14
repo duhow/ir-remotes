@@ -1,8 +1,9 @@
-# Pioneer
+# Pioneer A-209R
 
 Brand: Pioneer  
-Model: 
-Type: Audio
+Model: A-209R  
+Remote Model: CU-A019  
+Type: Audio amplifier
 
 Battery: 2x AA 1.5V
 
@@ -10,9 +11,12 @@ Battery: 2x AA 1.5V
 
 ## Codes
 
-- Uses [Anthem Protocol](http://www.hifi-remote.com/johnsfine/DecodeIR.html#Anthem) code, which is "similar" to NEC1.
-- Parameters: Device=161-165 SubDevice=90-94
-- Has several different parameters 
-- Code needs to repeat at least 3 times.
+- Uses [NEC2 Protocol](https://www.sbprojects.net/knowledge/ir/nec.php) code.
+- May confuse with Anthem.
+- Parameters:
+  - Tape: Device=161
+  - CD: Device=162
+  - Tuner: Device=164
+  - Amplifier: Device=165
 
 See files in folder to get codes.
