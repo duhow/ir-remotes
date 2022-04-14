@@ -1,0 +1,126 @@
+- platform: broadlink      ### RoomName = Rumpus
+  host: 192.168.255.255    ## IP Address of the Broadlink
+  mac: "78:0f:77:00:xx:xx" ## MAC Address of the Broadlink
+  timeout: 15
+  type: rm_mini            ## Broadlink type
+  switches:
+    'Bright Up':
+      friendly_name: "LED Bright Up"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxISEhISEhISEhISEhISEhISNxI3EjcSNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Bright Down':
+      friendly_name: "LED Bright Down"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxI3EhISEhISEhISEhISEhISEhI3EjcSNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Off':
+      friendly_name: "LED Off"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxISEjcSEhISEhISEhISEhISNxISEjcSNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'On':
+      friendly_name: "LED On"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxI3EjcSEhISEhISEhISEhISEhISEjcSNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'R':
+      friendly_name: "LED R"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxISEhISNxISEhISEhISEhISNxI3EhISNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'G':
+      friendly_name: "LED G"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxI3EhISNxISEhISEhISEhISEhI3EhISNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'B':
+      friendly_name: "LED B"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxISEjcSNxISEhISEhISEhISNxISEhISNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'White':
+      friendly_name: "LED White"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxI3EjcSNxISEhISEhISEhISEhISEhISNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'R+1':
+      friendly_name: "LED R+1"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxI3EjcSNxISEhISEhISEhISEhISEhISNxI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'G+1':
+      friendly_name: "LED G+1"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxISEhISEhI3EhISEhISEhISNxI3EjcSEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'B+1':
+      friendly_name: "LED B+1"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxI3EhISEhI3EhISEhISEhISEhI3EjcSEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Flash':
+      friendly_name: "LED Flash"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxISEjcSEhI3EhISEhISEhISNxISEjcSEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Orange':
+      friendly_name: "LED Orange"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxI3EjcSEhI3EhISEhISEhISEhISEjcSEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Cyan':
+      friendly_name: "LED Cyan"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxISEhISNxI3EhISEhISEhISNxI3EhISEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Purple':
+      friendly_name: "LED Purple"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxI3EhISNxI3EhISEhISEhISEhI3EhISEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Strobe':
+      friendly_name: "LED Strobe"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxISEjcSNxI3EhISEhISEhISNxISEhISEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'R+3':
+      friendly_name: "LED R+3"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxI3EjcSNxI3EhISEhISEhISEhISEhISEhI3EjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'G+3':
+      friendly_name: "LED G+3"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxISEhISEhISEjcSEhISEhISNxI3EjcSNxISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'B+3':
+      friendly_name: "LED B+3"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxI3EhISEhISEjcSEhISEhISEhI3EjcSNxISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Fade':
+      friendly_name: "LED Fade"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxISEjcSEhISEjcSEhISEhISNxISEjcSNxISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Yellow':
+      friendly_name: "LED Yellow"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxI3EjcSEhISEjcSEhISEhISEhISEjcSNxISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Blue_2':
+      friendly_name: "LED Blue_2"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxISEhISNxISEjcSEhISEhISNxI3EhISNxISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Pink':
+      friendly_name: "LED Pink"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxI3EhISNxISEjcSEhISEhISEhI3EhISNxISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
+    'Smooth':
+      friendly_name: "LED Smooth"
+      command_on: 'JgBIAAABKJQSEhISEhISEhISEhISEhISEjcSNxI3EjcSEhI3EjcSNxISEjcSNxISEjcSEhISEhISNxISEhISNxISEjcSNxI3EgAFPAABKEoSAA0F'
+      command_off: ''
+
