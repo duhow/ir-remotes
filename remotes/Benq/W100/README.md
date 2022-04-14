@@ -1,7 +1,7 @@
-# Benq W500
+# Benq W100
 
 Brand: Benq  
-Model: W500  
+Model: W100  
 Type: Projector
 
 Battery: 2x AAA 1.5V
@@ -11,6 +11,6 @@ Battery: 2x AAA 1.5V
 ## Codes
 
 - Uses [NEC2 Protocol](https://www.sbprojects.net/knowledge/ir/nec.php) code.
-- Parameters: Device=0 SubDevice=48
+- Parameters: Device=141
 
 See files in folder to get codes.
