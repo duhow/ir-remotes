@@ -1,0 +1,46 @@
+- platform: broadlink      ### RoomName = Rumpus
+  host: 192.168.255.255    ## IP Address of the Broadlink
+  mac: "78:0f:77:00:xx:xx" ## MAC Address of the Broadlink
+  timeout: 15
+  type: rm_mini            ## Broadlink type
+  switches:
+    'Light On':
+      friendly_name: "remote Light On"
+      command_on: 'JgDAACoOKg4OKg4qDioOKg4qDioOKg4qDioO5ioOKg4OKg4qDioqDioOKg4qDioOKg4q5ioOKg4OKg4qDioOKg4qDioqDg4qDioO5ioOKg4OKg4qDioOKg4qDioqDg4qDioO5ioOKg4OKg4qDioOKg4qDioqDg4qDioO5ioOKg4OKg4qDioOKg4qDioqDg4qDioO5ioOKg4OKg4qDioOKg4qDioqDg4qDioO5ioOKg4OKg4qDioOKg4qDioqDg4qDioOAA0F'
+      command_off: ''
+
+    'Fan High':
+      friendly_name: "remote Fan High"
+      command_on: 'JgDAACoOKg4OKg4qDioOKg4qDioOKg4qDioO5ioOKg4OKg4qDioqDioOKg4qDioOKg4q5ioOKg4OKg4qDioOKg4qDioOKg4qDioq5ioOKg4OKg4qDioOKg4qDioOKg4qDioq5ioOKg4OKg4qDioOKg4qDioOKg4qDioq5ioOKg4OKg4qDioOKg4qDioOKg4qDioq5ioOKg4OKg4qDioOKg4qDioOKg4qDioq5ioOKg4OKg4qDioOKg4qDioOKg4qDioqAA0F'
+      command_off: ''
+
+    'Fan Med':
+      friendly_name: "remote Fan Med"
+      command_on: 'JgDAACoOKg4OKg4qDioOKg4qDioOKg4qDioO5ioOKg4OKg4qDioqDioOKg4qDioOKg4q5ioOKg4OKg4qDioOKg4qDioOKioODioO5ioOKg4OKg4qDioOKg4qDioOKioODioO5ioOKg4OKg4qDioOKg4qDioOKioODioO5ioOKg4OKg4qDioOKg4qDioOKioODioO5ioOKg4OKg4qDioOKg4qDioOKioODioO5ioOKg4OKg4qDioOKg4qDioOKioODioOAA0F'
+      command_off: ''
+
+    'Fan Low':
+      friendly_name: "remote Fan Low"
+      command_on: 'JgDAACoOKg4OKg4qDioOKg4qDioOKg4qDioO5ioOKg4OKg4qDioqDioOKg4qDioOKg4q5ioOKg4OKg4qDioqDg4qDioOKg4qKg4q5ioOKg4OKg4qDioqDg4qDioOKg4qKg4q5ioOKg4OKg4qDioqDg4qDioOKg4qKg4q5ioOKg4OKg4qDioqDg4qDioOKg4qKg4q5ioOKg4OKg4qDioqDg4qDioOKg4qKg4q5ioOKg4OKg4qDioqDg4qDioOKg4qKg4qAA0F'
+      command_off: ''
+
+    'Fan Off':
+      friendly_name: "remote Fan Off"
+      command_on: 'JgDAACoOKg4OKg4qDioOKg4qDioOKg4qDioO5ioOKg4OKg4qDioqDioOKg4qDioOKg4q5ioOKg4OKg4qDioOKg4qKg4OKg4qDioO5ioOKg4OKg4qDioOKg4qKg4OKg4qDioO5ioOKg4OKg4qDioOKg4qKg4OKg4qDioO5ioOKg4OKg4qDioOKg4qKg4OKg4qDioO5ioOKg4OKg4qDioOKg4qKg4OKg4qDioO5ioOKg4OKg4qDioOKg4qKg4OKg4qDioOAA0F'
+      command_off: ''
+
+    'Timer 2h':
+      friendly_name: "remote Timer 2h"
+      command_on: 'JgDAACoOKg4OKg4qDioOKg4qDioOKg4qDioO5ioOKg4OKg4qDioqDioOKg4qDioOKg4q5ioOKg4OKg4qDioOKioODioOKg4qDioO5ioOKg4OKg4qDioOKioODioOKg4qDioO5ioOKg4OKg4qDioOKioODioOKg4qDioO5ioOKg4OKg4qDioOKioODioOKg4qDioO5ioOKg4OKg4qDioOKioODioOKg4qDioO5ioOKg4OKg4qDioOKioODioOKg4qDioOAA0F'
+      command_off: ''
+
+    'Timer 4h':
+      friendly_name: "remote Timer 4h"
+      command_on: 'JgDAACoOKg4OKg4qDioOKg4qDioOKg4qDioO5ioOKg4OKg4qDioqDioOKg4qDioOKg4q5ioOKg4OKg4qDioqDg4qDioOKioOKg4O5ioOKg4OKg4qDioqDg4qDioOKioOKg4O5ioOKg4OKg4qDioqDg4qDioOKioOKg4O5ioOKg4OKg4qDioqDg4qDioOKioOKg4O5ioOKg4OKg4qDioqDg4qDioOKioOKg4O5ioOKg4OKg4qDioqDg4qDioOKioOKg4OAA0F'
+      command_off: ''
+
+    'Timer 8h':
+      friendly_name: "remote Timer 8h"
+      command_on: 'JgDAACoOKg4OKg4qDioOKg4qDioOKg4qDioO5ioOKg4OKg4qDioqDioOKg4qDioOKg4q5ioOKg4OKg4qDioOKg4qDioOKg4qKg4O5ioOKg4OKg4qDioOKg4qDioOKg4qKg4O5ioOKg4OKg4qDioOKg4qDioOKg4qKg4O5ioOKg4OKg4qDioOKg4qDioOKg4qKg4O5ioOKg4OKg4qDioOKg4qDioOKg4qKg4O5ioOKg4OKg4qDioOKg4qDioOKg4qKg4OAA0F'
+      command_off: ''
+
