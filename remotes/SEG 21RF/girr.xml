@@ -3,7 +3,7 @@
     <adminData>
         <creationData creatingUser="duhow" creationDate="2022-04-11_22:04:35" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.10" toolVersion="2.3.1"/>
     </adminData>
-    <remote comment="Export from IrScrutinizer" name="tv-seg">
+    <remote comment="Export from IrScrutinizer" name="tv-seg" manufacturer="SEG" model="21RF">
         <commandSet name="commandSet">
             <parameters protocol="RC5">
                 <parameter name="D" value="1"/>

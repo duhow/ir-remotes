@@ -1,7 +1,7 @@
-# Seg
+# SEG 21RF
 
-Brand: Seg  
-Model: 
+Brand: SEG  
+Model: 21RF  
 Type: TV
 
 Battery: 2x AAA 1.5V
