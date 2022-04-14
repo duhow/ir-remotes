@@ -1,0 +1,201 @@
+- platform: broadlink      ### RoomName = Rumpus
+  host: 192.168.255.255    ## IP Address of the Broadlink
+  mac: "78:0f:77:00:xx:xx" ## MAC Address of the Broadlink
+  timeout: 15
+  type: rm_mini            ## Broadlink type
+  switches:
+    'Power 1':
+      friendly_name: "CD Power 1"
+      command_on: 'JgAaAE8UJxQUFCcUFBQnFBQUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Power 2':
+      friendly_name: "CD Power 2"
+      command_on: 'JgAgAE8UJxQUFCcUFBQnFBQUFBQnFBQUFBQnFCcUJxQUFBQADQU='
+      command_off: ''
+
+    'Power 3':
+      friendly_name: "CD Power 3"
+      command_on: 'JgAgAE8UJxQUFCcUFBQnFBQUFBQnFBQUFBQUFCcUFBQnFBQADQU='
+      command_off: ''
+
+    'Play Mode Continue':
+      friendly_name: "CD Play Mode Continue"
+      command_on: 'JgAaAE8UJxQUFCcUJxQnFBQUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Play Mode Shuffle':
+      friendly_name: "CD Play Mode Shuffle"
+      command_on: 'JgAaAE8UJxQUFCcUFBQnFCcUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Play Mode Program':
+      friendly_name: "CD Play Mode Program"
+      command_on: 'JgAaAE8UJxQnFCcUJxQnFBQUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Mega X-Fade':
+      friendly_name: "CD Mega X-Fade"
+      command_on: 'JgAaAE8UJxQUFBQUFBQnFCcUJxQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Mega No delay':
+      friendly_name: "CD Mega No delay"
+      command_on: 'JgAaAE8UFBQnFCcUJxQUFCcUJxQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Hit List':
+      friendly_name: "CD Hit List"
+      command_on: 'JgAaAE8UFBQUFCcUJxQnFBQUJxQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Disc':
+      friendly_name: "CD Disc"
+      command_on: 'JgAaAE8UFBQnFBQUJxQUFBQUJxQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Group':
+      friendly_name: "CD Group"
+      command_on: 'JgAaAE8UFBQUFCcUJxQUFBQUJxQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Time/Text':
+      friendly_name: "CD Time/Text"
+      command_on: 'JgAaAE8UFBQUFBQUJxQUFCcUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Input 1':
+      friendly_name: "CD Input 1"
+      command_on: 'JgAaAE8UFBQUFBQUFBQUFBQUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Input 2':
+      friendly_name: "CD Input 2"
+      command_on: 'JgAaAE8UJxQUFBQUFBQUFBQUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Input 3':
+      friendly_name: "CD Input 3"
+      command_on: 'JgAaAE8UFBQnFBQUFBQUFBQUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Input 4':
+      friendly_name: "CD Input 4"
+      command_on: 'JgAaAE8UJxQnFBQUFBQUFBQUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Input 5':
+      friendly_name: "CD Input 5"
+      command_on: 'JgAaAE8UFBQUFCcUFBQUFBQUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Input 6':
+      friendly_name: "CD Input 6"
+      command_on: 'JgAaAE8UJxQUFCcUFBQUFBQUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Input 7':
+      friendly_name: "CD Input 7"
+      command_on: 'JgAaAE8UFBQnFCcUFBQUFBQUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Input 8':
+      friendly_name: "CD Input 8"
+      command_on: 'JgAaAE8UJxQnFCcUFBQUFBQUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Input 9':
+      friendly_name: "CD Input 9"
+      command_on: 'JgAaAE8UFBQUFBQUJxQUFBQUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Input 10/0':
+      friendly_name: "CD Input 10/0"
+      command_on: 'JgAaAE8UFBQUFBQUFBQUFCcUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    '>10':
+      friendly_name: "CD >10"
+      command_on: 'JgAaAE8UJxQnFCcUFBQUFCcUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Enter':
+      friendly_name: "CD Enter"
+      command_on: 'JgAaAE8UJxQnFBQUJxQUFBQUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Repeat':
+      friendly_name: "CD Repeat"
+      command_on: 'JgAaAE8UFBQUFCcUJxQUFCcUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Check':
+      friendly_name: "CD Check"
+      command_on: 'JgAaAE8UJxQUFCcUJxQUFBQUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Clear':
+      friendly_name: "CD Clear"
+      command_on: 'JgAaAE8UJxQnFCcUJxQUFBQUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Memo/Input':
+      friendly_name: "CD Memo/Input"
+      command_on: 'JgAaAE8UJxQUFBQUJxQUFCcUJxQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Memo Scan':
+      friendly_name: "CD Memo Scan"
+      command_on: 'JgAaAE8UJxQnFBQUJxQUFCcUJxQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Highlight':
+      friendly_name: "CD Highlight"
+      command_on: 'JgAaAE8UJxQnFCcUJxQnFCcUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Play':
+      friendly_name: "CD Play"
+      command_on: 'JgAaAE8UFBQnFBQUFBQnFCcUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Pause':
+      friendly_name: "CD Pause"
+      command_on: 'JgAaAE8UJxQUFBQUJxQnFCcUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Stop':
+      friendly_name: "CD Stop"
+      command_on: 'JgAaAE8UFBQUFBQUJxQnFCcUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'AMS Chapter Back':
+      friendly_name: "CD AMS Chapter Back"
+      command_on: 'JgAaAE8UFBQUFBQUFBQnFCcUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'AMS Chapter Next':
+      friendly_name: "CD AMS Chapter Next"
+      command_on: 'JgAaAE8UJxQUFBQUFBQnFCcUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Rewind':
+      friendly_name: "CD Rewind"
+      command_on: 'JgAaAE8UJxQnFBQUFBQnFCcUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Forward':
+      friendly_name: "CD Forward"
+      command_on: 'JgAaAE8UFBQUFCcUFBQnFCcUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Disk Skip -':
+      friendly_name: "CD Disk Skip -"
+      command_on: 'JgAaAE8UJxQUFCcUJxQnFCcUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
+    'Disk Skip +':
+      friendly_name: "CD Disk Skip +"
+      command_on: 'JgAaAE8UFBQnFCcUJxQnFCcUFBQnFBQUFBQUFCcADQU='
+      command_off: ''
+
